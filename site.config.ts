@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '8a300f848a08af1233638204c51',
+  rootNotionPageId: 'Home-d0ac18a300f848a08af1233638204c51',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '个人资料库',
-  domain: 'notion.so/dou-biji/Home-d0ac18a300f848a08af1233638204c51',
+  domain: 'https://www.notion.so/dou-biji/Home-d0ac18a300f848a08af1233638204c51',
   author: 'Hayp',
 
   // open graph metadata (optional)
