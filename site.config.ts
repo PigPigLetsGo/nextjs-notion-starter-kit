@@ -2,6 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
+  // notion页面的id
   rootNotionPageId: 'Home-d0ac18a300f848a08af1233638204c51',
 
   // if you want to restrict pages to a single notion workspace (optional)
@@ -9,14 +10,18 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '个人资料库',
+  // 个人博客名称
+  name: 'Code记录',
+  // notion 页面的原始链接
   domain: 'https://www.notion.so/dou-biji/Home-d0ac18a300f848a08af1233638204c51',
-  author: 'Hayp',
+  // 作者名称
+  author: 'Dkx',
 
   // open graph metadata (optional)
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
+  // 社交账号的 名称 
   twitter: '@Dkx1219',
   github: 'PigPigLetsGo',
   linkedin: '',
