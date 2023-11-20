@@ -19,5 +19,11 @@ export const getStaticProps = async () => {
 }
 
 export default function NotionDomainPage(props) {
-  return <NotionPage {...props} />
+  return <NotionPage {...props} /> <script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 }
