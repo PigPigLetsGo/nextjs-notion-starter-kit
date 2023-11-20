@@ -5,7 +5,7 @@ const UtterancesComments = () => {
     const script = document.createElement('script');
     script.src = 'https://utteranc.es/client.js';
     script.async = true;
-    script.setAttribute('repo', 'YOUR-GITHUB-USERNAME/YOUR-REPO');
+    script.setAttribute('repo', 'PigPigLetsGo/Commentarea');
     script.setAttribute('issue-term', 'pathname');
     script.setAttribute('label', 'comment');
     script.setAttribute('theme', 'github-light');
