@@ -4,6 +4,21 @@ import { NotionPage } from '@/components/NotionPage'
 import { domain } from '@/lib/config'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 
+import UtterancesComments from '../components/UtterancesComments';
+
+const Home = ({ blocks }) => {
+  // ...原来的页面内容
+
+  return (
+    <div>
+      {/* ...原来的页面内容 */}
+      <UtterancesComments />
+    </div>
+  );
+};
+
+export default Home;
+
 export const getStaticProps = async () => {
   try {
     const props = await resolveNotionPage(domain)
